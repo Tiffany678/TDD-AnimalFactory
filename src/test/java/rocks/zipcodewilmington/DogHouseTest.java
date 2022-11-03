@@ -30,5 +30,6 @@ public class DogHouseTest {
 
         // Then
         DogHouse.getNumberOfDogs();
+
     }
 }

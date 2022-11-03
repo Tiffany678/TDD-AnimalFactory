@@ -9,9 +9,31 @@ import java.util.Date;
 /**
  * @author leon on 4/19/18.
  */
+
 public class CatTest {
+
     // TODO - Create tests for `void setName(String name)`
+    @Test
+    public void setNameTest(){
+        //Given
+        String expected = "cutieCat";
+        //When
+        Cat c = new Cat("notCutieCate",new Date(22,2,12), 01);
+        c.setName("cutieCat");
+         //Then
+         Assert.assertEquals(expected,c.getName());
+
+    }
     // TODO - Create tests for `speak`
+    @Test
+    public void speakTest(){
+        //Given
+        String expected = "meow!";
+        //When
+        Cat c = new Cat("notCutieCate",new Date(22,2,12), 02);
+        //Then
+        Assert.assertEquals(expected,c.speak());
+    }
     // TODO - Create tests for `setBirthDate(Date birthDate)`
     // TODO - Create tests for `void eat(Food food)`
     // TODO - Create tests for `Integer getId()`
@@ -38,6 +60,7 @@ public class CatTest {
         Assert.assertEquals(givenName, retrievedName);
         Assert.assertEquals(givenBirthDate, retrievedBirthDate);
         Assert.assertEquals(givenId, retrievedId);
+
     }
 
 }
