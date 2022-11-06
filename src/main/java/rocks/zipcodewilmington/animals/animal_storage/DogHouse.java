@@ -24,7 +24,7 @@ public class DogHouse {
         return dogHouse.getAnimalById(id);
     }
 
-    public static Integer getNumberOfDogs() {
+    public static int getNumberOfDogs() {
         return dogHouse.getNumberOfAnimals();
     }
 

@@ -3,7 +3,7 @@ package rocks.zipcodewilmington.animals;
 import java.util.Date;
 
 /**
- * @author leon on 4/19/18.
+ * @author Yingjie Yang 10/06/2022.
  */
 public class Dog extends Mammal {
     public Dog(String name, Date birthDate, Integer id) {
