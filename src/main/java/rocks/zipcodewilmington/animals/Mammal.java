@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- * @author leon on 4/19/18.
+ * @author Yingjie Yang
  */
 public abstract class Mammal implements Animal {
     private final Integer id;
